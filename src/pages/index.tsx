@@ -38,7 +38,7 @@ const BlogIndex = ({data, location }) => {
 
   React.useEffect(() => {
     tracker.start();
-  })
+  }, [])
 
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
