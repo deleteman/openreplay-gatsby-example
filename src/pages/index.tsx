@@ -29,7 +29,7 @@ type BlogPostDocument = {
 
 
 const tracker = new Tracker({
-  projectKey: process.env.OPENREPLAY_PROJECT_KEY
+  projectKey: process.env.GATSBY_OPENREPLAY_PROJECT_KEY
 });
 
 
